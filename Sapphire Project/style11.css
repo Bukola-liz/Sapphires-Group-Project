@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* BEGINNIMG OF HEADER DESIGN*/
+.header1{
+    background-color:#1C2039;
+    position: absolute;
+    width: 100%;
+    top: -2px;
+    padding: 5px; 
+    height: 80px; 
+}
+.logo{
+    transform: scale(.8);
+    margin-top: -10px;
+    margin-left: -70px;
+}
+.navbar .fa-chevron-down{
+    color: white;
+}
+.navbar ul{
+    margin-left: 650px;
+    margin-top: -120px;
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    padding: 12px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.explore{
+    background-color: #6161FF;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;margin-left: 70px;
+}
+.navbar .fa-bell{
+    margin-top: 12px;
+    color: white;
+    margin-left: 60px;
+    
+}
+/* END OD HEADER DESIGN*/
+/* BEGINNING OF SECOND (BUTTON) DESIGN*/
+
+.arrow i {
+        transform: scale(2.0);
+        color: black;
+        margin-left: 30px;
+        margin-top:  30px; ;
+}
+
+/* BEGINNING OF THIRD DESIGN*/
+.type1{
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+/*END OF THIRD DESIGN*/
+/* BEGINNING OF BUTTON DESIGN*/
+.btn{
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    width: 70%;
+    display: inline-block;
+    margin-left: 15%;
+   
+}
+.btn--primary{
+    background: #6161FF;
+    color: white;
+    
+}
+.btn--primary:hover{
+    background: #2b2bc8;
+}
+
+
+
+/* BEGINNING OF FIFTH SECTION*/
+/**/
+/* BEGINNING OF FOOTER DESIGN*/
+.footer{
+    background-color: #1C2039;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+}
+.links{
+    display: inline-block;
+    margin-left: 150px;
+}
+.links li{
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links .sublinks{
+    opacity: .7;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+.links a{
+    transition: .5s ease;
+}
+.links a:hover{
+    color: #6161FF;
+}
+.footer-icons{
+    transform: scale(2);
+    position: relative;
+    left: 1590px;
+    top: -35px;
+}
+.footer-icons .fa-brands{
+    color: white;
+    opacity: .7;
+    padding: 3px;
+    transition: .5s ease;
+}
+.footer-icons .fa-brands:hover{
+    transform: scale(1.5);
+    color: #6161FF;
+}
