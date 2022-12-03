@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirm payment
+      
+    </title>
+    <link href="CSS/style9.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="bg-image"></div>
+    <div class="header1">
+      <div class="logo">
+        <img src="Logo.svg" />
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="#">About Us</a><i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">Contact Us</a><i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <i class="fa-solid fa-bell"></i>
+          <li class="explore"><a href="#">Planning an event?</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+<button type="submit" class="btn" onclick="openPopup()">Proceed to payment</button>
+<div class="btn-container">
+<div class="popup" id="popup">
+  <img src="https://mail.google.com/mail/u/0?ui=2&ik=7d36131e55&attid=0.2&permmsgid=msg-f:1751129825458692452&th=184d434c620ea164&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_kHE0FYvayAx_EZQ7aF2Ph9795AK2QbecWe7BtbDIMzb_SgPuixJc2WWdOXRzdjBeZn2CetYaG7szepbfm1pyqfAqnHnaRrFcn3DnnU2enA1Ys2hoLY4z3jTQ&disp=emb&realattid=ii_lb6vcu881">
+  <h2>Transaction Successful</h2>
+  <p>We received your purchase request;<br/> we'll be in touch shortly!</p>
+  
+  <a href="/ticketreceipt.html"><button type="submit" class="btn">View receipt</button> </a>
+  <a href="/exploreevent.html"> <button type="button" class="btn cancel" onclick="closeForm()">Discover more Events</button> </a>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="footer">
+<div class="links">
+<h3><a href="#">Product</a></h3>
+<ul class="sublinks">
+  <li><a href="#">Event Ticketing</a></li>
+  <li><a href="#">Client Support</a></li>
+  <li><a href="#">Pricing</a></li>
+  <li><a href="#">Booking</a></li>
+  <li><a href="#">Developers</a></li>
+  <li><a href="#">Ticket Scanner</a></li>
+</ul>
+</div>
+
+<div class="links">
+<h3><a href="#">Explore</a></h3>
+<ul class="sublinks">
+  <li><a href="#">Event Promoter</a></li>
+  <li><a href="#">Sell Ticket</a></li>
+  <li><a href="#">Event Organiser</a></li>
+  <li><a href="#">How It Works</a></li>
+  <li><a href="#">Download App</a></li>
+</ul>
+</div>
+
+<div class="links">
+<h3><a href="#">About</a></h3>
+<ul class="sublinks">
+  <li><a href="#">About us</a></li>
+  <li><a href="#">Privacy Policy</a></li>
+  <li><a href="#">Security</a></li>
+  <li><a href="#">Blog</a></li>
+</ul>
+</div>
+
+<div class="links">
+<h3><a href="#">Connect With Us</a></h3>
+<ul class="sublinks">
+  <li><a href="#">Customer support</a></li>
+  <li><a href="#">Client Login</a></li>
+  <li><a href="#">Call Center</a></li>
+  <li><a href="#">Event Promoter</a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="footer-icons">
+<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
+
+
+
+
+</body>
+<script>
+   let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+
+function closePopup(){
+  popup.classList.remove("open-popup")
+}
+</script>
+</html>
+
+
+
+
+
+
+
+
+
