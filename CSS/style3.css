@@ -50,7 +50,7 @@ body{
 .bg-image{
     background-image:
     linear-gradient(rgba(13, 16, 41, 0.808), rgba(0, 0, 0, 0.7)),
-    url('.//images/img09.jpg');
+    url('/images/img09.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

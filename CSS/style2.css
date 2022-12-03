@@ -51,7 +51,7 @@ body{
 .bg-image{
     background-image:
     linear-gradient(rgba(17, 27, 90, 0.808), rgba(34, 40, 121, 0.7)),
-    url('.//images/img03.jpg');
+    url('/images/img03.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
